@@ -7,7 +7,8 @@ import multiprocessing as mp
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-import openslide
+with os.add_dll_directory(r'C:\Users\thmalone\Desktop\Research\OpenSlide\openslide-win64\bin'):
+	import openslide
 from PIL import Image
 import pdb
 import h5py
